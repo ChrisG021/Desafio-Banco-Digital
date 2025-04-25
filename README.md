@@ -67,40 +67,6 @@ src/
 
 ---
 
-## 🧪 Exemplo de Uso
-
-### Criando Contas e Fazendo Operações
-
-```java
-Conta conta1 = new ContaCorrente("Chris");
-Conta conta2 = new ContaCorrente("Maicon");
-Conta conta3 = new ContaPoupanca("Maicon");
-
-bb.adicionarContaCorrente(conta1);
-bb.adicionarContaCorrente(conta2);
-bb.adicionarContaPoupanca(conta3);
-
-conta1.depositar(1000);
-conta2.depositar(7000);
-conta2.transferir(5223, conta3);
-```
-
-### Buscando por titular
-
-```java
-List<Conta> contasMaicon = bb.buscarPorNomeTitular("maicon");
-for (Conta c : contasMaicon) {
-    if (c instanceof ContaCorrente) {
-        System.out.println("[Conta Corrente]");
-    } else if (c instanceof ContaPoupanca) {
-        System.out.println("[Conta Poupança]");
-    }
-    c.imprimirExtrato();
-}
-```
-
----
-
 ## 📚 Tecnologias
 
 - Java 8+
