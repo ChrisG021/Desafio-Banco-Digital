@@ -39,22 +39,6 @@ src/
 
 ---
 
-## ⚙️ Como Executar
-
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/seuusuario/banco-java.git
-   cd banco-java
-   ```
-
-2. **Compile e execute com o terminal** (assumindo que o `javac` e `java` estão no PATH):
-   ```bash
-   javac banco/Cliente.java banco/Banco.java banco/conta/*.java Main.java
-   java Main
-   ```
-
----
-
 ## ✅ Funcionalidades
 
 - Criar contas corrente e poupança
@@ -83,9 +67,5 @@ src/
 - Tratamento de exceções personalizadas
 
 ---
-
-## 🧑‍💻 Autor
-
-Desenvolvido por Christophe Guerra - estudante de Ciência da Computação, entusiasta de Java e POO.
-
----
+## PS
+- o codigo tem como base o codigo compartilhado no bootcamp de java da DIO
