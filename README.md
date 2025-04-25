@@ -86,6 +86,6 @@ src/
 
 ## 🧑‍💻 Autor
 
-Desenvolvido por [Seu Nome] - estudante de Ciência da Computação, entusiasta de Java e POO.
+Desenvolvido por Christophe Guerra - estudante de Ciência da Computação, entusiasta de Java e POO.
 
 ---
